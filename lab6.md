@@ -7,7 +7,7 @@
 3. CPU
 4. ตัวโปรแกรมสร้างไวไฟแอคเซสพอยต์ (06_Wifi-AP-Web-Server)
 ## ศึกษาข้อมูลเบื้องต้น
-1. 06 run wiri AP : https://www.youtube.com/watch?v=T26DVHePlTs
+1. 06 run wifi AP : https://www.youtube.com/watch?v=T26DVHePlTs
 2. src code ของโปรแกรม 06_Wifi-AP-Web-Server : https://github.com/choompol-boonmee/lab63b/blob/master/examples/06_Wifi-AP-Web-Server/src/main.cpp
 ## วิธีการทำการทดลอง
 1. นำอแดปเตอร์ต่อเข้ากับUSB
