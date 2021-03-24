@@ -54,12 +54,15 @@ void setup(void){
 void loop(void){
   server.handleClient();
 }
-```
-5. สร้างIP Address,gateway,subnet และ เตรียมweb server
+``` 
+5. สร้างIP Address,gateway,subnet และ เตรียมweb server ![image](https://user-images.githubusercontent.com/80880047/112279580-a54aa080-8cb6-11eb-9946-3a565cc7323e.png)
+
 6. อัปโหลดโปรแกรมในไมโครคอนโทรลเลอร์ โดยใช้คำสั่ง pio run -t upload
-7. กดปุ่มอัปโหลด 
+7. กดปุ่มอัปโหลด ![image](https://user-images.githubusercontent.com/80880047/112279476-8ba95900-8cb6-11eb-98dd-50089e40a16c.png)
+
 8. รันคำสั่ง pio device monitor เพื่อดูผลลัพธ์
-9. ทดสอบโปรแกรมโดยค้นหา Wifi ผ่านโทรศัพท์มือถือ โดยใส่ Password ที่เราตั้งไว้
+9. ทดสอบโปรแกรมโดยค้นหา Wifi ผ่านโทรศัพท์มือถือ โดยใส่ Password ที่เราตั้งไว้ ![image](https://user-images.githubusercontent.com/80880047/112279505-9368fd80-8cb6-11eb-8be4-156cc51bb480.png)
+
 ## การบันทึกผลการทดลอง
 จากการทดลองเมื่อเรารันโปรแกรมสร้าง Wifi ลงบนตัวไมโครคอนโทรลเลอร์ จะสามารถแสกนหา Wifi ที่เราสร้างไว้บนโทรศัพท์มือถือจากการเขียนโปรแกรม
 ## อภิปรายผลการทดลอง
