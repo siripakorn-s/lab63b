@@ -8,8 +8,9 @@
 3. สาย USB
 4. serial port
 ## ศึกษาข้อมูลเบื้องต้น
-1. platformsio 
-2. ภาษา C หรือ C++
+1. 01 run example 1 : https://www.youtube.com/watch?v=NLIUsWLEpmg
+2. src code ของโปรแกรม 01_Serial-Monitor : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
+3. platformio : https://platformio.org/
 ## วิธีการทำการทดลอง
 1. ต่อไมโครคอนโทรล​เลอร์เข้า serial port
 2. เลือกไฟล์ตัวอย่างที่ต้องการใช้
