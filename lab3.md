@@ -46,7 +46,8 @@ void loop()
 ![image](https://user-images.githubusercontent.com/80880047/112281039-353d1a00-8cb8-11eb-8d1d-befe0bd8d1d7.png)
 
 5. พิมพ์คำสั่ง pio device monitor เพื่อแสดงผล   ![image](https://user-images.githubusercontent.com/80880047/112282021-476b8800-8cb9-11eb-87fb-5511e8b21f97.png)
-![image](https://user-images.githubusercontent.com/80880047/112282075-54887700-8cb9-11eb-8e67-2e1ecda769dc.png)
+![image](https://user-images.githubusercontent.com/80880047/112284880-4ab44300-8cbc-11eb-90bf-5973ea5bb7b6.png)
+
 
 6. ต่อไมโครคอนโทรลเลอร์เข้ากับรีเลย์   ![image](https://user-images.githubusercontent.com/80880047/112281797-0a9f9100-8cb9-11eb-899a-b55be324b779.png)
 
@@ -55,7 +56,7 @@ void loop()
 
 ## การบันทึกผลการทดลอง
 เมื่อรันโปรแกรม จะแสดงผลเป็นonกับoffทุกครึ่งวินาที และเมื่อดูที่ไฟLEDที่พอร์ท0จะเปล่งแสงออกมาตอนที่เป็นonและดับตอนเป็นoffตามคำสั่ง
-## อภิปรายผล
+## อภิปรายผลการทดลอง
 จากการติดตั้งไฟล์ 03_ Serial-Monitor ลงไมโครคอนโทรลเลอร์เมื่อทำการรัน จะแสดงผล คือเมื่อonหน้าสัมผัสของรีเลย์จะเคลื่อนที่ทำให้ไฟLEDติด แต่เมื่อoffจะไม่มีการจ่ายไฟทำให้ไฟLEDไม่ติด และจะแสดงผลสลับกันไปเรื่อยๆ
 ## คำถามหลังการทดลอง
 * Q: ถ้าจะต้องอัปโหลดไฟล์ตัวอย่าง จะต้องใช้คำสั่งใด
