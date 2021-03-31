@@ -9,16 +9,16 @@
 4. Resistor 330 Ohm 
 5. สายไฟจัมเปอร์ ผู้-ผู้ 
 6. สายไฟจัมเปอร์ ผู้-เมีย 
-7. เซนเซอร์ตรวจจับความเคลื่อนไหว 
+7. เซนเซอร์ตรวจจับความร้อน
 ## ศึกษาข้อมูลเบื้องต้น
-1. [เซนเซอร์ตรวจจับความเคลื่อนไหว](https://www.myarduino.net/product/28/pir-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7-motion-sensor-detector-module-hc-sr501-2)
+1. [เซนเซอร์ตรวจจับความร้อน](https://www.myarduino.net/product/28/pir-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7-motion-sensor-detector-module-hc-sr501-2)
 2. [code run 07](https://www.myarduino.net/article/106/%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-arduino-pir-sensor-hc-sr501-%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%A1%E0%B8%B5%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95-%E0%B8%84%E0%B8%A7%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%A1-%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B9%84%E0%B8%9F-led)
 ## วิธีการทำการทดลอง
 ![image](https://user-images.githubusercontent.com/80880047/113169653-030b5980-9270-11eb-9ec1-1ed89e575469.png)
 1. ทำการต่อสาย USB เข้ากับตัว USB to Serial port
 2. ต่อ Arduino Uno R3 เข้ากับ Serial Port
 3. นำขา 2 ของ Arduino uno r3 ต่อเข้ากับหลอดไฟ LED
-4. นำเซ็นเซอร์ตรวจจับวัตถุต่อเข้ากับขา 8 ของ Arduino uno r3
+4. นำเซ็นเซอร์ตรวจจับความร้อนต่อเข้ากับขา 8 ของ Arduino uno r3
 5. อัปโหลดโปรแกรมตัวอย่างเข้าไปยัง Arduino uno r3 จะแสดงตัวอย่างโปรแกรมดังนี้
 ``` int ledPin = 2;
 int digitalPin = 8;
